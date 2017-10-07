@@ -8,12 +8,6 @@ import json
 from JDProduct import JDProduct
 from SQL import save_mysql
 
-
-#商品全称（or 简述）、价格：
-#品牌、商品名称、商品编号、商品毛重、商品产地、妆效、分类、功效、颜色
-#商品规格与包装：需要抓取的有：保质期、适用人群
-#商品评价：需要抓取的是：商品评价总数、好评度
-
 class JDSpiders:
 	
 	def __init__(self,url):
